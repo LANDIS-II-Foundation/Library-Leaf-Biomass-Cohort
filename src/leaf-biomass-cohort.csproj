@@ -3,6 +3,13 @@
     <RootNamespace>leaf_biomass_cohort</RootNamespace>
     <AssemblyName>Landis.Library.LeafBiomassCohorts-v1.0.1</AssemblyName>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Leaf-Biomass-Cohort</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://sites.google.com/site/landismodel/home</PackageProjectUrl>
+    <PackageTags>LANDIS-II;Landis;Library;Leaf Biomass Cohort</PackageTags>
+    <NeutralLanguage>English</NeutralLanguage>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Landis.Core" Version="1.0.0" />
