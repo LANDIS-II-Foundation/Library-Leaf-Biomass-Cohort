@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>leaf_biomass_cohort</RootNamespace>
+    <RootNamespace>Landis.Library.LeafBiomassCohorts</RootNamespace>
     <AssemblyName>Landis.Library.LeafBiomassCohorts-v1.0.1</AssemblyName>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
