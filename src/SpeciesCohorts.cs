@@ -517,7 +517,7 @@ namespace Landis.Library.LeafBiomassCohorts
         IEnumerator<Landis.Library.BiomassCohorts.ICohort> IEnumerable<Landis.Library.BiomassCohorts.ICohort>.GetEnumerator()
         {
             foreach (CohortData data in cohortData)
-                yield return new Landis.Library.BiomassCohorts.Cohort(species, data.Age, (int)data.WoodBiomass);
+                yield return new Landis.Library.BiomassCohorts.Cohort(species, data.Age, (int)Math.Round(data.WoodBiomass + data.LeafBiomass));
         }
 
     }
